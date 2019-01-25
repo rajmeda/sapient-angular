@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th>Job ID</th>
+        <th>Role</th>
+        <th>Company Name</th>
+        <th>Website</th>
+        <th>Full Time</th>
+        <th>Technology</th>
+    </tr>
+    <tr *ngFor="let testarray of testArrays">
+        <td> {{testarray.jobId}} </td>
+        <td> {{testarray.role}} </td>
+        <td> {{testarray.companyName}}</td>
+        <td> {{testarray.website}} </td>
+        <td> {{testarray.fullTime}} </td>
+        <td> {{testarray.technology}} </td>
+    </tr>
+</table>
